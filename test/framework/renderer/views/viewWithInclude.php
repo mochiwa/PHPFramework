@@ -1,0 +1,1 @@
+<?= $viewBuilder->query('@namespace/viewTest') ?>

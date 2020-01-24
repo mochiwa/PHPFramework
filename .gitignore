@@ -1,0 +1,7 @@
+apache/vendor/*
+node_modules/
+apache/public/dist/
+apache/vendor/
+nbproject/
+apache/public/
+apache/public/index.php

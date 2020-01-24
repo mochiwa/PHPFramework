@@ -1,0 +1,69 @@
+{
+    "name": "vendor/eci-web-integration",
+    "description": "Projet d'integration pour ECI",
+    "authors": [
+        {
+            "name": "mochiwa",
+            "email": "chiappelloni.nicolas@gmail.com"
+        }
+    ],
+    
+    "require": {
+        "psr/http-message" : "^1.0",
+        "psr/http-server-middleware": "^1.0",
+        "guzzlehttp/psr7": "^1.6",
+        "altorouter/altorouter": "^2.0.1",
+        "http-interop/response-sender": "^1.0",
+        "psr/container": "^1.0",
+        "vlucas/valitron": "^1.4",
+        "twig/twig":"^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7.5",
+        "middlewares/whoops": "^1.2",
+        "behat/behat": "^3.5"
+    },
+    
+    "autoload":{
+        "psr-4":{
+            "Framework\\" : "./src/framework",
+            "Framework\\Router\\" : "./src/framework/router",
+            "Framework\\DependencyInjection\\" : "./src/framework/dependencyInjection",
+            "Framework\\Renderer\\" : "./src/framework/renderer",
+            "Framework\\Html\\" : "./src/framework/html",
+            "Framework\\Html\\Factory\\" : "./src/framework/html/factory",
+            "Framework\\Module\\" : "./src/framework/module",
+            "Framework\\Controller\\" : "./src/framework/controller",
+            "Framework\\Middleware\\" : "./src/framework/middleware",
+            "Framework\\Validator\\" : "./src/framework/validator",
+            "Framework\\Session\\" : "./src/framework/session",
+            "Framework\\FileManager\\" : "./src/framework/fileManager",
+            "Framework\\Paginator\\" : "./src/framework/paginator",
+            "Framework\\Connection\\" : "./src/framework/connection",
+            "Framework\\Acl\\" : "./src/framework/acl",
+            "Framework\\Cookie\\" : "./src/framework/cookie"
+        }
+    },
+    
+    "autoload-dev":{
+        "psr-4":{
+            "Test\\Framework\\" : "./test/framework",
+            "Test\\Framework\\Router\\" : "./test/framework/router",
+            "Test\\Framework\\DependencyInjection\\" : "./test/framework/dependencyInjection",
+            "Test\\Framework\\Renderer\\" : "./test/framework/renderer",
+            "Test\\Framework\\Html\\" : "./test/framework/html",
+            "Test\\Framework\\Html\\Factory\\" : "./test/framework/html/factory",
+            "Test\\Framework\\Module\\" : "./test/framework/module",
+            "Test\\Framework\\Controller\\" : "./test/framework/controller",
+            "Test\\Framework\\Middleware\\" : "./test/framework/middleware",
+            "Test\\Framework\\Validator\\" : "./test/framework/validator",
+            "Test\\Framework\\Session\\" : "./test/framework/session",
+            "Test\\Framework\\FileManager\\" : "./test/framework/fileManager",
+            "Test\\Framework\\Paginator\\" : "./test/framework/paginator",
+            "Test\\Framework\\Connection\\" : "./test/framework/connection",
+            "Test\\Framework\\Acl\\" : "./test/framework/acl",
+            "Test\\Framework\\Cookie\\" : "./test/framework/cookie"
+            
+        }
+    }
+}
