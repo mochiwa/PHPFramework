@@ -1,4 +1,4 @@
 # PHPFramework
 Personal php framework
 UML: 
-![uml] (/uml/FRAMEWORK_CLASS_DIAGRAM.png  "uml")
+![uml](https://github.com/mochiwa/PHPFramework/blob/master/uml/FRAMEWORK_CLASS_DIAGRAM.png "uml")
